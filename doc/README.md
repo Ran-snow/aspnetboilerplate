@@ -1,7 +1,7 @@
-ASP.NET Boilerplate Documents
+ASP.NET Boilerplate 文档
 =============================
 
-This folder contains  the documents for ASP.NET Boilerplate.
+此文件夹包含ASP.NET Boilerplate的文档
 
-* __WebSite__: See all the documents
-on http://www.aspnetboilerplate.com/Pages/Documents
+* __网址__: 
+在 http://www.aspnetboilerplate.com/Pages/Documents 查看所有文档
