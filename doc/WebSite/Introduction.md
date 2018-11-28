@@ -1,14 +1,14 @@
-### What is the ASP.NET Boilerplate?
+### 什么是 ASP.NET Boilerplate?
 
-ASP.NET Boilerplate (**ABP**) is an **[open source](https://github.com/aspnetboilerplate/aspnetboilerplate)** and well-documented **application framework**.
-It's not just a framework, it also provides a strong **[architectural model](https://aspnetboilerplate.com/Pages/Documents/NLayer-Architecture)**
-based on **Domain Driven Design**, with all the **best practices** in mind.
+ASP.NET Boilerplate (**ABP**) 是一个 **[开源的](https://github.com/aspnetboilerplate/aspnetboilerplate)** 、 文档齐全的 **应用框架**.
+它不仅仅是个框架, 它还基于 **Domain Driven Design**提供了一个强大的 **[architectural model](https://aspnetboilerplate.com/Pages/Documents/NLayer-Architecture)**
+,  并实现所有**最佳实践**.
 
-ABP works with the latest **ASP.NET Core** & **EF Core** but also supports ASP.NET MVC 5.x & EF 6.x as well.
+ABP 工作在最新版**ASP.NET Core** & **EF Core**上，但也良好支持ASP.NET MVC 5.x & EF 6.x。
 
-### A Quick Sample
+### 一个快速示例
 
-Let's investigate a simple class to see ABP's benefits:
+让我们研究一个简单的类去瞧一瞧ABP的好处:
 
     public class TaskAppService : ApplicationService, ITaskAppService
     {
@@ -34,13 +34,11 @@ Let's investigate a simple class to see ABP's benefits:
         }
     }
 
-Here we see a sample [Application Service](Application-Services.md) method. An application service, in DDD,
-is directly used by the presentation layer to perform the **use cases** of the application.
-Think **UpdateTask** as a method that is called by JavaScript via AJAX.
+这里我们看到了一个简单的[应用服务](Application-Services.md)方法。在DDD中，一个应用服务直接由表示层使用，以执行应用程序的用例。 将UpdateTask视为JavaScript通过AJAX调用的方法。
 
-Let's see some of ABP's benefits here:
+ABP 优点如下:
 
--   **[Dependency Injection](/Pages/Documents/Dependency-Injection)**: ABP uses and provides a conventional DI infrastructure.
+-   **[依赖注入](/Pages/Documents/Dependency-Injection)**: ABP uses and provides a conventional DI infrastructure.
     Since this class is an application service, it's conventionally
     registered to the DI container as transient (created per request). It
     can simply inject any dependencies (such as the IRepository&lt;Task&gt; in
@@ -100,15 +98,15 @@ Besides this simple example, ABP provides a strong infrastructure and developmen
 
 ### Getting Started
 
-You can start with the startup templates or the introduction tutorials.
+你可以从启动模板或介绍教程开始
 
-#### Startup Templates
+#### 启动模板
 
-Directly create a modern looking startup project from the [startup templates](/Templates).
+从启动模板直接创建一个现代化的[初始项目](/Templates)。
 
 <img src="images/module-zero-core-template-ui-home.png" alt="Startup template" class="img-thumbnail" />
 
-Startup templates provides a basic layout and some common features for an application. There are several startup templates with different options.
+启动模板为应用程序提供了基本布局和一些常用功能。 这有几个具有不同的选项的启动模板。
 
 ##### ASP.NET Core
 
@@ -119,11 +117,11 @@ Startup templates provides a basic layout and some common features for an applic
 
 * [ASP.NET MVC 5.x & AngularJS 1.x / ASP.NET MVC 5.x & jQuery](Zero/Startup-Template.md)
 
-See the [download page](/Templates) for other combinations.
+有关其他组合，请参阅[下载页面]（/Templates）。
 
-#### Introduction Tutorials
+#### 介绍教程
 
-Step by step tutorials introduces the framework and explains how to create your application based on the startup templates.
+分步教程介绍了该框架，并解释了如何基于启动模板创建应用程序。
 
 ##### ASP.NET Core
 
@@ -135,13 +133,13 @@ Step by step tutorials introduces the framework and explains how to create your 
 -   [Introduction with ASP.NET MVC 5.x, Web API 2.x, EntityFramework 6.x & AngularJS 1.x](Articles/Introduction-With-AspNet-MVC-Web-API-EntityFramework-and-AngularJs/index.html)
 -   [Developing a multi-tenant (SaaS) application with ASP.NET MVC 5.x, EntityFramework 6.x & AngularJS 1.x](Articles/Developing-a-Multi-Tenant-SaaS-Application-with-ASP.NET-MVC-EntityFramework-AngularJs/index.html)
 
-### Samples
+### 示例
 
-There are many sample projects developed with the framework. See [the samples page](/Samples).
+这里有很多使用此框架的开发示例. See [the samples page](/Samples).
 
-### Community
+### 社区
 
-This is an open source project and open to contributions from the community.
+这是一个开源项目，对社区的贡献开放。
 
 * Use [the GitHub repository](https://github.com/aspnetboilerplate/aspnetboilerplate) to access the latest **source code**, create [issues](https://github.com/aspnetboilerplate/aspnetboilerplate/issues) and send [pull requests](https://github.com/aspnetboilerplate/aspnetboilerplate/pulls).
 * Use [aspnetboilerplate tag on stackoverflow](https://stackoverflow.com/questions/tagged/aspnetboilerplate) to ask questions about the usage.
